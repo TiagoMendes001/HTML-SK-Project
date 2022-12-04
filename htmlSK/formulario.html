@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt/BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos!</title>
+    <link rel="stylesheet" href="css/docCss.css">
+    <script src="JS/docJs.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" style="float: left; margin-top: 10px; margin-left: 10px;"><img src="images/favinovo.png" width="25px" height="25px"></a>
+        </nav>
+    </header>
+    
+    <form action="" method="post" target="_blank" name="formContato" class="formContatos">
+
+        <fieldset>
+            <p>
+                <label for="iName">First Name = </label>
+                <input type="text" name="iName" class="iName" 
+                placeholder="Set your name here..." autocomplete="on">
+            </p>
+            <p>
+                <label for="lastName">Last Name = </label>
+                <input type="text" name="lastName" class="lastName" 
+                placeholder="Set your last name here..." autocomplete="on">
+            </p>
+            <p>
+                <label for="passWord">PassWord = </label>
+                <input type="password" name="passWord" id="passWord" placeholder="set your password here ..." required>
+            </p>
+            <p>
+                <label for="eMail">E-mail = </label>
+                <input type="email" name="eMail" id="eMail" placeholder="set your e-mail here ..." required>
+            </p>
+            <hr/>
+            <p>
+                <label for="iSelecionar">Informe Seu Tipo Favorito de Café: </label><br/><br>
+                <select name="iSelecionar" id="iSelecionar" size="1" required>
+                    <option value="">Selecione uma Opção: </option>
+                    <optgroup label="Tradicionais">
+                        <option value="carioca">Carioca</option>
+                        <option value="expresso">Expresso</option>
+                    </optgroup>
+                    <optgroup label="Novos">
+                        <option value="Machiato">Machiato</option>
+                        <option value="Capuccino">Capuccino</option>
+                        <option value="latte">Latte</option>
+                    </optgroup>
+                </select>
+            </p>
+    
+            <p>
+                <button type="button" onclick="alert('Hello Guys!')">Click Me</button>
+                <br><br>
+                <input type="submit" value="Send Now!">
+            </p>
+        </fieldset>
+            <hr>
+        <fieldset>
+            <legend>Tipos de Canais Favoritos!</legend>
+            
+            <p>
+                <p>
+                    <label for="checkUm" style="color: black;">Amazon</label>
+                    <input type="checkbox" name="check" id="check" value="Amamzon">
+                </p>
+                <p>
+                    <label for="checkDois" style="color: black;">NetFlix</label>
+                    <input type="checkbox" name="check" id="check" value="NetFlix">
+                </p>
+                <p>
+                    <label for="checkTres" style="color: black;">HBO Max</label>
+                    <input type="checkbox" name="check" id="check" value="HBO Max">
+                </p>
+            </p>
+        </fieldset>
+        <hr/>
+        <fieldset>
+            <legend>Você Tem Animais de Estimação ?</legend>
+
+            <p>
+                <input type="radio" name="pet" id="dog" value="dog">
+                <label for="dog">Cão</label>
+            </p>
+            <p>
+                <input type="radio" name="pet" id="dog" value="dog">
+                <label for="dog">Cão</label>
+            </p>
+            <p>
+                <input type="radio" name="pet" id="dog" value="dog">
+                <label for="dog">Cão</label>
+            </p>
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>
