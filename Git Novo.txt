@@ -15,7 +15,8 @@
         <p id="caixa"><sub>Bizarre</sub></p>
         <p id="caixa"><sub>Film and TV</sub></p>
         <p id="caixa"><sub>Books</sub></p>
-
+	<p id="caixa"><sub>Series</sub></p>
+	<p id="caixa"><sub>Serial Killers</sub></p>
     </header>
 
     <!-- Tag Main-->
